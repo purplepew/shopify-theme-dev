@@ -63,38 +63,6 @@
         "default": false
       },
       {
-        "type": "header",
-        "content": "Light mode colors"
-      },
-      {
-        "type": "color",
-        "id": "background_color",
-        "default": "#ffffff",
-        "label": "t:labels.background"
-      },
-      {
-        "type": "color",
-        "id": "foreground_color",
-        "default": "#000000",
-        "label": "t:labels.foreground"
-      },
-      {
-        "type": "header",
-        "content": "Dark mode colors"
-      },
-      {
-        "type": "color",
-        "id": "dark_background_color",
-        "default": "#1a1a1a",
-        "label": "t:labels.background"
-      },
-      {
-        "type": "color",
-        "id": "dark_foreground_color",
-        "default": "#ffffff",
-        "label": "t:labels.foreground"
-      },
-      {
         "type": "range",
         "id": "input_corner_radius",
         "min": 0,
