@@ -69,14 +69,26 @@
       {
         "type": "color",
         "id": "background_color",
-        "default": "#FFFFFF",
+        "default": "#1f1f1f",
         "label": "t:labels.background"
       },
       {
         "type": "color",
         "id": "foreground_color",
-        "default": "#333333",
+        "default": "#EAEFEF",
         "label": "t:labels.foreground"
+      },
+      {
+        "type": "color",
+        "id": "primary_color",
+        "default": "#7F8CAA",
+        "label": "t:labels.primary"
+      },
+      {
+        "type": "color",
+        "id": "secondary_color",
+        "default": "#B8CFCE",
+        "label": "t:labels.secondary"
       },
       {
         "type": "range",
