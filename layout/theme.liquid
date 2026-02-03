@@ -1,8 +1,14 @@
 <!doctype html>
 <html lang="{{ request.locale.iso_code }}">
   <head>
+    <link rel="dns-prefetch" href="https://cdn.shopify.com">
+    {{ 'https://cdn.shopify.com/s/files/1/0732/6973/9677/files/orbitron-v35-latin-regular.woff2' | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
+
     {% # Inlined CSS Variables %}
     {% render 'css-variables' %}
+
+    {% # Fonts from shopify files %}
+    {% render 'css-fonts' %}
 
     {% comment %}
       Font preloading:

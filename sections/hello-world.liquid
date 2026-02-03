@@ -6,7 +6,7 @@
   <div class="welcome-content">
     <div>
       <h1>Hello, World!</h1>
-      
+
       <p class="welcome-description">
         The Skeleton theme is a minimal, carefully structured Shopify theme designed to help you quickly get started.
         Designed with modularity, maintainability, and Shopify's best practices in mind.
@@ -56,10 +56,8 @@
   .welcome {
     display: grid;
     grid-template-columns: var(--content-grid);
-    background-color: var(--background-color);
-    color: var(--foreground-color);
+    background-color: #f6f6f7;
     padding: 72px 0;
-    
   }
 
   .welcome-content {
@@ -135,14 +133,7 @@
 {% schema %}
 {
   "name": "Hello World",
-  "settings": [
-    {
-      "type": "text",
-      "id": "greetings",
-      "default":"hellooo",
-      "label": "t:general.content"
-    }
-  ],
+  "settings": [],
   "presets": [
     {
       "name": "Hello World Template",

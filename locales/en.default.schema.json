@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "404": "Not found",
@@ -18,6 +27,7 @@
     "group": "Group",
     "header": "Header",
     "layout": "Layout",
+    "logo": "Logo",
     "main": "Main",
     "page": "Page",
     "password": "Password",
@@ -31,7 +41,7 @@
     "sidebar": "Sidebar",
     "text": "Text",
     "theme": "Theme",
-    "typography": "Typography"
+    "typography": "Typography",
   },
   "labels": {
     "alignment": "Alignment",
@@ -47,7 +57,8 @@
     "page_width": "Page width",
     "show_payment_icons": "Show payment icons",
     "text_style": "Text style",
-    "text": "Text"
+    "text": "Text",
+    "shop_name": "Shop Name"
   },
   "options": {
     "alignment": {

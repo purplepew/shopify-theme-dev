@@ -19,7 +19,17 @@
         "id": "type_primary_font",
         "default": "work_sans_n4",
         "label": "t:general.primary"
-      }
+      },
+      {
+        "type": "header",
+        "content": "t:general.logo"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_logo_font",
+        "default": "work_sans_n4",
+        "label": "t:general.logo"
+      },
     ]
   },
   {
@@ -57,10 +67,16 @@
     "name": "t:general.colors",
     "settings": [
       {
-        "type": "checkbox",
-        "id": "enable_dark_mode",
-        "label": "Enable dark mode",
-        "default": false
+        "type": "color",
+        "id": "background_color",
+        "default": "#FFFFFF",
+        "label": "t:labels.background"
+      },
+      {
+        "type": "color",
+        "id": "foreground_color",
+        "default": "#333333",
+        "label": "t:labels.foreground"
       },
       {
         "type": "range",

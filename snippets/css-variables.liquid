@@ -13,13 +13,6 @@
     --page-margin: {{ settings.min_page_margin }}px;
     --color-background: {{ settings.background_color }};
     --color-foreground: {{ settings.foreground_color }};
-    --color-background-dark: {{ settings.dark_background_color }};
-    --color-foreground-dark: {{ settings.dark_foreground_color }};
     --style-border-radius-inputs: {{ settings.input_corner_radius }}px;
-  }
-
-  body.dark-mode {
-    --color-background: var(--color-background-dark);
-    --color-foreground: var(--color-foreground-dark);
   }
 {% endstyle %}
